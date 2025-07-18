@@ -1,0 +1,47 @@
+.card{
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 1px 4px 3px lightgrey;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 1px 4px 3px rgb(79, 78, 78);
+    transition: all 0.4s;
+}
+.card-flex{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px
+}
+.button-details{
+    border:none;
+    border-radius: 4px;
+    border-bottom: 1px solid lightgrey;
+    height:25px;
+    width:150px;
+    cursor:pointer;
+    background-color: rgb(255, 213, 153);
+}
+.button-details:hover{
+    transition: all 0.3s;
+    background-color: rgb(178, 201, 244);
+}
+.item-title{
+    font-family: arial;
+}
+.item-description{
+    font-family: arial;
+}
+.item-price{
+    font-family: arial;
+}
+.item-ratecount{
+    font-family: arial;
+}
+.item-rating{
+    font-family: arial;
+}
