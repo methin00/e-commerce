@@ -1,12 +1,32 @@
-# React + Vite
+# WHAT IS IT?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is a basic e-commerce website I developed as an exercise while improving my React skills.
 
-Currently, two official plugins are available:
+# FEATURES
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A loading spinner appears while the data is being fetched.
+- Responsive product listing.
+- Product filtering via a search input which located in top-right corner of the page.
+- Dark mode for users who prefer a low-light interface.
+- A basket icon that opens a drawer from the right side when clicked.
+- The basket drawer lists items responsively and shows the calculated subtotal at the bottom.
+- A product details page that allows users to add multiple quantities of an item to the basket at once.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## USED TECHNOLOGIES
+
+- Fake API Service, in order to simulate product data.
+- Redux Toolkit, for centralized store management.
+- React Router DOM, for seamless navigation between pages.
+- Material UI, for a modern, user-friendly interface.
+- Axios, for making HTTP requests to the API.
+- CSS, for styling the interface.
+
+## LIVE DEMO
+
+👉 [Click here to view the live demo](https://e-commerce-one-khaki-13.vercel.app/)
+
+## VIEW ON GITHUB
+
+🔗 [GitHub Repository](https://github.com/methin00/e-commerce)
